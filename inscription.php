@@ -265,25 +265,3 @@ if (!empty($_POST['email'])) {
 		<script src="js/index.js"></script>
 	</body>
 </html>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 col-md-offset-4">
-                        <h2 class="mb-50"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inscrivez-vous </font></font></h2>
-                        <form action="inscription.php" method="post" class="contact_form" id="contact-quartbg-form-text--3-form" novalidate="novalidate">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="pseudo" name="pseudo">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Adresse-email" name="email">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" placeholder="Mot de Passe" name="password">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" placeholder="Confirmez votre mot de passe" name="confirm">
-                            </div>
-                            <button type="submit" data-loading-text="•••" data-complete-text="Completed!" data-reset-text="Try again later..." class="btn btn-block btn-primary"><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Inscription</font></font></span></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
